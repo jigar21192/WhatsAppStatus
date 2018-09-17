@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+
+    <TextView
+        android:id="@+id/txtstatusdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colordark"
+        android:textSize="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/imvcopyicon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="28dp"
+
+        app:srcCompat="@drawable/copyicon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/txtstatusdetail"
+        android:layout_alignStart="@+id/txtstatusdetail"
+        android:layout_marginStart="26dp" />
+
+    <ImageView
+        android:id="@+id/imvshareicon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginRight="28dp"
+        app:srcCompat="@drawable/shareicon3"
+        android:layout_alignTop="@+id/imvcopyicon"
+        android:layout_alignRight="@+id/txtstatusdetail"
+        android:layout_alignEnd="@+id/txtstatusdetail"
+        android:layout_marginEnd="28dp" />
+
+
+</RelativeLayout>
