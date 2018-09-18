@@ -1,4 +1,4 @@
-package com.example.admin.whatsappstatus;
+package com.example.admin.whatsappstatus.Activity;
 
 import android.animation.Animator;
 import android.content.Intent;
@@ -22,6 +22,9 @@ import android.view.MenuItem;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
+
+import com.example.admin.whatsappstatus.R;
+import com.example.admin.whatsappstatus.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

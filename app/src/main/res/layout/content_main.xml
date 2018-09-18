@@ -8,7 +8,7 @@
     android:background="@android:color/white"
 
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.admin.whatsappstatus.MainActivity"
+    tools:context="com.example.admin.whatsappstatus.Activity.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
     <android.support.v4.view.ViewPager
