@@ -19,7 +19,8 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/frameLayout2">
+        android:id="@+id/frameLayout2"
+        android:background="@color/colorbackground">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_status"
